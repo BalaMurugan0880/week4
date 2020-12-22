@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Day 2 Bootstrap</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+<style type="text/css">
+	#form1{
+		background-color: darkgrey;
+		color:white;
+		margin: 10px;
+		padding: 10px;
+	}
+	#formText{
+		color: white;
+		text-align: center;
+	}
+</style>
+
+</head>
+<body class="bg-warning">
+
+<div class="container">
+	<h1>This is heading 1 <small class="text-muted">Secondary Text</small></h1>
+	<h2>This is heading 2 <small class="text-muted">Secondary Text</small></h2>
+	<h3>This is heading 3 <small class="text-muted">Secondary Text</small></h3>
+	<h4>This is heading 4 <small class="text-muted">Secondary Text</small></h4>
+	<h5>This is heading 5 <small class="text-muted">Secondary Text</small></h5>
+	<h6>This is heading 6 <small class="text-muted">Secondary Text</small></h6>
+<hr>
+
+<p>You can use the mark tag to <mark>highlight</mark> text.</p>
+<p><del>This line of text is meant to be treated as deleted text.</del></p>
+<p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+<p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+<p><u>This line of text will render as underlined</u></p>
+<p><small>This line of text is meant to be treated as fine print.</small></p>
+<p><strong>This line rendered as bold text.</strong></p>
+<p><em>This line rendered as italicized text.</em></p>
+
+<hr>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<hr>
+
+<p class="text-start">Start aligned text on all viewport sizes.</p>
+<p class="text-center">Center aligned text on all viewport sizes.</p>
+<p class="text-end">End aligned text on all viewport sizes.</p>
+
+<hr>
+
+<ul>
+	<li>First</li>
+	<li>Second</li>
+	<li>Third</li>
+
+</ul>
+
+<ol>
+	<li class="list-inline-item">First</li>
+	<li class="list-inline-item">Second</li>
+	<li class="list-inline-item">Third</li>
+</ol>
+
+<hr>
+
+<p>To restart the pc you will use <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>del</kbd></p>
+<p>Do you want a <code>&lt;br/&gt;</code></p>
+<hr>
+
+<p class="text-primary">This is color 1</p>
+<p class="text-secondary">This is color 2</p>
+<p class="text-info">This is color 3</p>
+<p class="text-danger">This is color 4</p>
+<p class="text-warning">This is color 5</p>
+<p class="text-success">This is color 6</p>
+<p class="text-light">This is color 6</p>
+<hr>
+
+<p class="bg-primary">This is color 1</p>
+<p class="bg-secondary">This is color 2</p>
+<p class="bg-info">This is color 3</p>
+<p class="bg-danger">This is color 4</p>
+<p class="bg-warning">This is color 5</p>
+<p class="bg-success">This is color 6</p>
+<p class="bg-dark text-light">This is color 7</p>
+
+<hr>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+<hr>
+
+<button type="button" class="btn btn-primary btn-sm">Small button</button>
+<button type="button" class="btn btn-secondary btn-sm">Small button</button>
+
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-secondary btn-lg">Large button</button>
+
+<hr>
+
+<form id="form1" action="">
+	<h3 id="formText"><strong>Form Exercise</strong></h3>
+<div class="mb-3">
+  <label for="name" class="form-label">Name</label>
+  <input type="text" class="form-control" id="name" placeholder="Add Name">
+</div>
+<div class="mb-3">
+  <label for="email" class="form-label">Email</label>
+  <input type="text" class="form-control" id="email" placeholder="Add Email">
+</div>
+<div class="mb-3">
+  <label for="message" class="form-label">Message</label>
+  <textarea class="form-control" id="message" rows="3" placeholder="Add message"></textarea>
+</div>
+<div class="mb-3">
+	<label for="gender" class="form-label">Genders</label>
+<select id="gender" class="form-select" aria-label="Default select example">
+  <option selected>Select A Gender</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+</select>
+</div>
+
+<div class="mb-3">
+  <label for="formFile" class="form-label">Upload File</label>
+  <input class="form-control" type="file" id="formFile" placeholder="Only png ang jpg allowed">
+</div>
+
+<div class="mb-3">
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="checkbox">
+  <label class="form-check-label" for="checkbox">
+    Check Me Out
+  </label>
+</div>
+</div>
+
+<div class="mb-3">
+	<button type="submit" class="btn-primary">Submit</button>
+</div>
+
+</form>
+
+
+<hr>
+
+<h2>Table</h2>
+
+<table class="table table-striped table-hover">
+	<tr class="bg-dark text-light">
+		<th>Name</th>
+		<th>Company</th>
+		<th>Email</th>
+	</tr>
+	<tr>
+		<td>Jason</td>
+		<td>AirAsia</td>
+		<td>jasonasia22@gmail.com</td>
+	</tr>
+		<tr>
+		<td>Ramya</td>
+		<td>Malindo Airlines</td>
+		<td>ramyalindo45@yahoo.com</td>
+	</tr>
+<tr>
+		<td>John</td>
+		<td>KFC</td>
+		<td>kfcJohn56@hotmail.com</td>
+</tr>
+<tr>
+		<td>Esha</td>
+		<td>BAC</td>
+		<td>esharry@bac.edu.my</td>
+</tr>
+</table>
+
+<hr>
+
+<ul class="list-group">
+	<li class="list-group-item"><i class="fas fa-users"></i> My new friends</li>
+	<li class="list-group-item"><i class="fas fa-envelope-square"></i> My Message</li>
+	<li class="list-group-item"><i class="far fa-file"></i> Pages</li>
+	<li class="list-group-item"><i class="fas fa-wifi"></i> My network <span class="badge bg-secondary">5</span></li>
+	<li class="list-group-item"><i class="fas fa-bullhorn"></i> New Request <span class="badge bg-primary">2</span></li>
+</ul>
+
+<hr>
+
+<ul class="list-group mt-3 mb-3">
+	<li class="list-group-item active">Visit Page</li>
+	<li class="list-group-item">About us</li>
+	<li class="list-group-item">About the program</li>
+	<li class="list-group-item">Info</li>
+	<li class="list-group-item">Help</li>
+</ul>
+
+<hr>
+
+<div class="card" style="width: 18rem;">
+  <img src="test1.jpg" class="card-img-top" alt="test">
+  <div class="card-body">
+    <h5 class="card-title">Sea Games</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<hr>
+<h2>Bootstrap Grid System</h2>
+
+<div class="row">
+	<div class="col-4">
+		<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="col-4">
+		<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="col-4">
+		<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</div>
+
+<hr>
+
+<div class="row">
+	<div class="col-6">
+		<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="col-6">
+		<p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</div>
+
+<hr>
+
+<div class="row">
+	<div class="col-4">
+		<img class="img-fluid" src="test1.jpg" alt="test">
+	</div>
+	<div class="col-8">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</div>
+
+<hr>
+
+<div class="row px-5 py-5 bg-warning">
+	<div class="col-4" align="center">
+		<h1 style="font-size: 72px;"><i class="fas fa-search"></i></h1>
+		<h4>Choose a Bike</h4>
+		<p>Over 120+ motorcycles listed! Rent the one that suits you.</p>
+		
+	</div>
+	<div class="col-4" align="center">
+		<h1 style="font-size: 72px;"><i class="fas fa-calendar"></i></h1>
+		<h4>Book your Trip</h4>
+		<p>Register your account, select bike and pay</p>
+	</div>
+	<div class="col-4" align="center">
+		<h1 style="font-size: 72px;"><i class="fas fa-motorcycle"></i></h1>
+		<h4>Go For a Ride</h4>
+		<p>Protection options,insurance & unlimeted kilometers</p>
+	</div>
+</div>
+
+</div>
+<script src="https://kit.fontawesome.com/d5ef2e3452.js" crossorigin="anonymous"></script>
+</body>
+</html>
